@@ -37,3 +37,83 @@ drwxrwxr-x 2 dev-member dev-member 4.0K Sep 28 08:33 demo
 -rw-rw-r-- 1 dev-member dev-member  278 Sep 28 12:55 logger.log
 -rwxr-xr-x 1 dev-member dev-member    6 Sep 28 08:45 text.txt
 ```
+
+# How to create a folder/directory
+
+```bash
+    mkdir [path/directory-name]
+```
+
+# How to create file
+
+```bash
+dev-member@QC-SUPPORT:~/demo$ touch ./demo.txt
+dev-member@QC-SUPPORT:~/demo$ ls
+demo.txt  test.txt
+```
+
+# How to remove fil
+
+```bash
+dev-member@QC-SUPPORT:~/demo$ rm -v ./demo.txt
+removed './demo.txt'
+```
+
+# How to read the file
+
+```bash
+dev-member@QC-SUPPORT:~/demo$ cat test.txt
+```
+
+```bash
+dev-member@QC-SUPPORT:~/demo$ nano demoFile.txt #to write in the demoFile.txt
+dev-member@QC-SUPPORT:~/demo$ less demoFile.txt # to see the file content.
+dev-member@QC-SUPPORT:~/demo$ more demoFile.txt # to see the file content...
+```
+
+# How t change the directory
+
+```bash 
+dev-member@QC-SUPPORT:~/demo$ pwd
+>>/home/dev-member/demo
+dev-member@QC-SUPPORT:~/demo$ cd ..
+dev-member@QC-SUPPORT:~$ pwd
+>>/home/dev-member
+```
+
+# How to move to the root directory
+
+```bash
+dev-member@QC-SUPPORT:/$ ls
+bin                boot  etc   init  lib.usr-is-merged  lost+found  mnt  proc  run   sbin.usr-is-merged  srv  tmp  var
+bin.usr-is-merged  dev   home  lib   lib64              media       opt  root  sbin  snap                sys  usr
+```
+
+# how to copy a file from one path to different
+
+```bash
+
+syntax:
+dev-member@QC-SUPPORT:~/DevOpsLrn$ cp [FileName] [Destination-Path]
+
+dev-member@QC-SUPPORT:~$ ls
+DevOpsLrn  demo  text.txt
+dev-member@QC-SUPPORT:~$ cd DevOpsLrn
+dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
+file.txt
+dev-member@QC-SUPPORT:~/DevOpsLrn$ cp file.txt /home/dev-member/
+dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
+file.txt
+dev-member@QC-SUPPORT:~/DevOpsLrn$ cd ..
+dev-member@QC-SUPPORT:~$ ls
+DevOpsLrn  demo  file.txt  text.txt
+dev-member@QC-SUPPORT:~$ cat file.txt
+Hello, I want to create file
+this is the 2nd line of the file.
+dev-member@QC-SUPPORT:~$ cd DevOpsLrn/
+dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
+file.txt
+dev-member@QC-SUPPORT:~/DevOpsLrn$ cat file.txt
+Hello, I want to create file
+this is the 2nd line of the file.
+```
