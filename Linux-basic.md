@@ -161,3 +161,14 @@ Hello, I want to create file
 
 Syntax: head -[no of lines] [File Name]
 ```
+
+# How to read line of contents from a file.
+
+```bash
+dev-member@QC-SUPPORT:~/DevOpsLrn$ cat test.txt
+Hello Team,
+
+        Be available for weakends.
+dev-member@QC-SUPPORT:~/DevOpsLrn$ tail -1 test.txt
+        Be available for weakends.
+```
