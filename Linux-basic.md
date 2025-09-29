@@ -195,4 +195,6 @@ dev-member@QC-SUPPORT:~/DevOpsLrn$ egrep "team|ends" test.txt -i
 Hello Team,
         Be available for weakends.`bash
 
+
+SYNTAX : egrep [VAL1 | VAL2] [FILE_NAME]
 ```
