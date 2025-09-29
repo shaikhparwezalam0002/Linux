@@ -139,3 +139,13 @@ if the file name or file already exists then it will override it's content.
 dev-member@QC-SUPPORT:~/DevOpsLrn$ ls -r
 text.txt  file.txt
 ```
+
+# How to rename a file
+
+```bash
+dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
+file.txt  text.txt
+dev-member@QC-SUPPORT:~/DevOpsLrn$ mv text.txt test.txt
+dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
+file.txt  test.txt
+```
