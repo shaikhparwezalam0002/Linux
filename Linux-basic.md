@@ -198,3 +198,10 @@ Hello Team,
 
 SYNTAX : egrep [VAL1 | VAL2] [FILE_NAME]
 ```
+
+# How to search a particular file start name or extension name
+
+```bash
+$ ls li* #file name starts with li
+$ ls *.csv #file should be .csv 
+```
