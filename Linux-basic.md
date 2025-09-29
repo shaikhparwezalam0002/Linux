@@ -97,23 +97,31 @@ syntax:
 dev-member@QC-SUPPORT:~/DevOpsLrn$ cp [FileName] [Destination-Path]
 
 dev-member@QC-SUPPORT:~$ ls
-DevOpsLrn  demo  text.txt
+DevOpsLrn  demo  file.txt  text.txt
 dev-member@QC-SUPPORT:~$ cd DevOpsLrn
 dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
 file.txt
+dev-member@QC-SUPPORT:~/DevOpsLrn$ pwd
+/home/dev-member/DevOpsLrn
 dev-member@QC-SUPPORT:~/DevOpsLrn$ cp file.txt /home/dev-member/
 dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
 file.txt
 dev-member@QC-SUPPORT:~/DevOpsLrn$ cd ..
 dev-member@QC-SUPPORT:~$ ls
 DevOpsLrn  demo  file.txt  text.txt
-dev-member@QC-SUPPORT:~$ cat file.txt
-Hello, I want to create file
-this is the 2nd line of the file.
-dev-member@QC-SUPPORT:~$ cd DevOpsLrn/
-dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
-file.txt
-dev-member@QC-SUPPORT:~/DevOpsLrn$ cat file.txt
-Hello, I want to create file
-this is the 2nd line of the file.
 ```
+
+# How to copy of a filcontent to another file
+
+```bash
+dev-member@QC-SUPPORT:~$ ls
+DevOpsLrn  demo  file.txt  text.txt
+dev-member@QC-SUPPORT:~$ cat text.txt
+Hello
+dev-member@QC-SUPPORT:~$ cp text.txt test1.txt
+dev-member@QC-SUPPORT:~$ cat test1.txt
+Hello
+
+1.cp [EXISTING-FILE-NAME] [NEW-FILE-NAME]
+```
+
