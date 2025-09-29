@@ -205,3 +205,11 @@ SYNTAX : egrep [VAL1 | VAL2] [FILE_NAME]
 $ ls li* #file name starts with li
 $ ls *.csv #file should be .csv 
 ```
+
+# How to create file in a single patter in multiple file
+
+```bash
+dev-member@QC-SUPPORT:~/DevOpsLrn$ touch filesh{1..5}.txt
+dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
+file.txt  filesh1.txt  filesh2.txt  filesh3.txt  filesh4.txt  filesh5.txt  test.txt
+```
