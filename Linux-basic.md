@@ -123,5 +123,7 @@ dev-member@QC-SUPPORT:~$ cat test1.txt
 Hello
 
 1.cp [EXISTING-FILE-NAME] [NEW-FILE-NAME]
+
+if the file name or file already exists then it will override it's content.
 ```
 
