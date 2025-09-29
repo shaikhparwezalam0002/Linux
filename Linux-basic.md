@@ -172,3 +172,14 @@ Hello Team,
 dev-member@QC-SUPPORT:~/DevOpsLrn$ tail -1 test.txt
         Be available for weakends.
 ```
+
+# How to search some content in a file 
+
+```bash
+dev-member@QC-SUPPORT:~/DevOpsLrn$ cat test.txt
+Hello Team,
+
+        Be available for weakends.
+dev-member@QC-SUPPORT:~/DevOpsLrn$ grep "team" test.txt -i # -i for case sensitive
+Hello Team,
+```
