@@ -183,3 +183,16 @@ Hello Team,
 dev-member@QC-SUPPORT:~/DevOpsLrn$ grep "team" test.txt -i # -i for case sensitive
 Hello Team,
 ```
+
+# How to search multiple values in a file 
+
+```bash
+dev-member@QC-SUPPORT:~/DevOpsLrn$ cat test.txt
+Hello Team,
+
+        Be available for weakends.
+dev-member@QC-SUPPORT:~/DevOpsLrn$ egrep "team|ends" test.txt -i
+Hello Team,
+        Be available for weakends.`bash
+
+```
