@@ -149,3 +149,13 @@ dev-member@QC-SUPPORT:~/DevOpsLrn$ mv text.txt test.txt
 dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
 file.txt  test.txt
 ```
+
+# How to read top 5 lines from a file.
+
+```bash
+dev-member@QC-SUPPORT:~/DevOpsLrn$ cat file.txt
+Hello, I want to create file
+this is the 2nd line of the file.
+dev-member@QC-SUPPORT:~/DevOpsLrn$ head -1 file.txt
+Hello, I want to create file
+```
