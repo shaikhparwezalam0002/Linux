@@ -127,3 +127,8 @@ Hello
 if the file name or file already exists then it will override it's content.
 ```
 
+# How to cut / move a file 
+
+```bash
+ mv [FILE-NAME] [DESTINATION]
+```
