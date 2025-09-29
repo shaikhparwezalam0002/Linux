@@ -235,4 +235,6 @@ Hello, I want to create file
 this is the 2nd line of the file.
 dev-member@QC-SUPPORT:~$ cmp file1.txt file2.txt
 file1.txt file2.txt differ: byte 30, line 2
+
+- if file is identical no output is return 
 ```
