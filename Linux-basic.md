@@ -132,3 +132,10 @@ if the file name or file already exists then it will override it's content.
 ```bash
  mv [FILE-NAME] [DESTINATION]
 ```
+
+# It will list all the file in reverse order.
+
+```bash
+dev-member@QC-SUPPORT:~/DevOpsLrn$ ls -r
+text.txt  file.txt
+```
