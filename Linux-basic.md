@@ -220,3 +220,19 @@ file.txt  filesh1.txt  filesh2.txt  filesh3.txt  filesh4.txt  filesh5.txt  test.
 dev-member@QC-SUPPORT:~/DevOpsLrn$ wc -l test.txt
 3 test.txt
 ```
+
+# how to compare two file content in linux
+
+```bash
+dev-member@QC-SUPPORT:~$ ls
+DevOpsLrn  demo  file1.txt  file2.txt  test1.txt
+dev-member@QC-SUPPORT:~$ cat file1.txt
+Hello, I want to create file
+This is the 2nd line of the file.
+Adding new Line.
+dev-member@QC-SUPPORT:~$ cat file2.txt
+Hello, I want to create file
+this is the 2nd line of the file.
+dev-member@QC-SUPPORT:~$ cmp file1.txt file2.txt
+file1.txt file2.txt differ: byte 30, line 2
+```
