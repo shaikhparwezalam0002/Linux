@@ -213,3 +213,10 @@ dev-member@QC-SUPPORT:~/DevOpsLrn$ touch filesh{1..5}.txt
 dev-member@QC-SUPPORT:~/DevOpsLrn$ ls
 file.txt  filesh1.txt  filesh2.txt  filesh3.txt  filesh4.txt  filesh5.txt  test.txt
 ```
+
+# How to count the number of line present in a file.
+
+```bash
+dev-member@QC-SUPPORT:~/DevOpsLrn$ wc -l test.txt
+3 test.txt
+```
