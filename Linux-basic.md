@@ -346,5 +346,6 @@ dev-member@QC-SUPPORT:~$ sudo chown :developer linux.sh
  # -h for humand readable format
  # -a for hidden files as well
  dev-member@QC-SUPPORT:~$ df -h
- ![Disk Details](/image/image.png)
+ 
 ```
+![Disk Details](/image/image.png)
