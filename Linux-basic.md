@@ -310,6 +310,7 @@ For these permission we have 2 commands
  2. Numeric Way
     we have range [0-7] and 
     for read - 100 - 4
-    for write,execute - 011 -5 
+    for write,execute - 011 - 3
     for read , write, execute - 111 - 7 
+    for read , execute - 101 - 5 and so on.
 ```
