@@ -268,5 +268,5 @@ These permissions are associated on different level of ownership. Ownership is b
 
 3. other users who has access to the system
 
-all the users of the system.
+4. all the users of the system.
 ```
