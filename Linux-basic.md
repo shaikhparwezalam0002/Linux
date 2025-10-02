@@ -324,3 +324,9 @@ For these permission we have 2 commands
      # for group -5 
      # for other -5
 ```
+
+# CHOWN THIS COMMAND HELP TO MANANGE THE OWNERSHIP OF A DIRECTORY/FILE.
+
+```bash
+
+```
