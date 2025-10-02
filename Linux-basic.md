@@ -302,7 +302,7 @@ For these permission we have 2 commands
     w - write
     x - execute
 
-   Execute :
+   Example:
     dev-member@QC-SUPPORT:~$ chmod u+x linux.sh
     dev-member@QC-SUPPORT:~$ chmod g-x g+w test1.txt
     dev-member@QC-SUPPORT:~$ chmod g+x test1.txt
@@ -313,4 +313,14 @@ For these permission we have 2 commands
     for write,execute - 011 - 3
     for read , write, execute - 111 - 7 
     for read , execute - 101 - 5 and so on.
+
+   Syntax : chmod [Numberic(0-7 u)(0-7 g)(0-7 a)] [File Name] 
+   Example:
+   
+    -rw-rw-r-- 1 dev-member dev-member    0 Oct  2 20:19 linux.sh
+     # Now we have for user and group have read & write access and others have only read access
+    dev-member@QC-SUPPORT:~$ chmod 755 linux.sh
+     # for user -7 
+     # for group -5 
+     # for other -5
 ```
