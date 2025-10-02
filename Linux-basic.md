@@ -281,5 +281,6 @@ For these permission we have 2 commands
 # How to play with permission of a file and directory.
 
 ```bash
-
+ **How to change a user permission**
+  **Syntax **: chmod [User][Operator][Permission] [FileName]
 ```
