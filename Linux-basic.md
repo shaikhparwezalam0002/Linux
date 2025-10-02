@@ -246,7 +246,7 @@ dev-member@QC-SUPPORT:~$ man mkdir
 dev-member@QC-SUPPORT:~$ man rmdir
 ```
 
-# File permissions
+# CHMOD File permissions
 
 ```bash
 Every file in Linux has the following 3 permissions associated:
