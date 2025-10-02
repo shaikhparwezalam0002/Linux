@@ -245,3 +245,28 @@ file1.txt file2.txt differ: byte 30, line 2
 dev-member@QC-SUPPORT:~$ man mkdir
 dev-member@QC-SUPPORT:~$ man rmdir
 ```
+
+# File permissions
+
+```bash
+Every file in Linux has the following 3 permissions associated:
+
+1. Read - We can only read a file - Denoted as `R`
+
+2. Write - We can edit a file content - Denoted as `W`
+
+3. Execute - We can execute the file - Denoted as `x`
+
+We can make a file get any combination of permissions i.e. READ WRITE, or READ EXECUTE, OR WRITE, OR EXECUTE, OR READ WRITE EXECUTE and so on.
+So a file can may be have all these 3 permissions or a subset of them.
+
+These permissions are associated on different level of ownership. Ownership is based on level, that is includes:
+
+1. users who owns the file
+
+2. user group that owns the file
+
+3. other users who has access to the system
+
+all the users of the system.
+```
