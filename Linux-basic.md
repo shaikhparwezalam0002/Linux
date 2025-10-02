@@ -352,3 +352,17 @@ dev-member@QC-SUPPORT:~$ sudo chown :developer linux.sh
 ```
 ![Disk Details](/image/image.png)
 
+# DU COMMANDS
+
+```bash
+# it display the disk uses of all the folder/directory
+dev-member@QC-SUPPORT:~$ du
+
+# it display the disk uses of all the folder/directory in human readable format
+dev-member@QC-SUPPORT:~$ du -h
+
+# It display a particular folder disk uses in the system.
+dev-member@QC-SUPPORT:~$ du -h DevOpsLrn
+8.0K    DevOpsLrn
+```
+![disk uses by a ](/image/image1.png)
