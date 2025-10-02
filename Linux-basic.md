@@ -271,4 +271,9 @@ These permissions are associated on different level of ownership. Ownership is b
 4. all the users of the system.
 
 Note : File any user of the machine we can separetly define what permission they have, like owner of the file can read, write and execute, may be others can only read.
+
+For these permission we have 2 commands
+
+1. chmod # this command helps us to change the permission of a file and directory.
+2. chown
 ```
