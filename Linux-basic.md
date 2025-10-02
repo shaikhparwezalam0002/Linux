@@ -269,4 +269,6 @@ These permissions are associated on different level of ownership. Ownership is b
 3. other users who has access to the system
 
 4. all the users of the system.
+
+Note : File any user of the machine we can separetly define what permission they have, like owner of the file can read, write and execute, may be others can only read.
 ```
