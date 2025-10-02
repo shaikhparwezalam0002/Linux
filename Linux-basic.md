@@ -283,4 +283,25 @@ For these permission we have 2 commands
 ```bash
  How to change a user permission
  Syntax : chmod [User][Operator][Permission] [FileName]
+ User type:
+  u - user
+  g - group 
+  o - others
+  a - all
+
+  Operator type:
+   + >> for adding the permission 
+   - >> for removing the permission
+   = >> for adding the perticular permission and removing existing permissions.
+
+   Permission types:
+    r - read
+    w - write
+    x - execute
+
+   Execute :
+    dev-member@QC-SUPPORT:~$ chmod u+x linux.sh
+    dev-member@QC-SUPPORT:~$ chmod g-x g+w test1.txt
+    dev-member@QC-SUPPORT:~$ chmod g+x test1.txt
+    dev-member@QC-SUPPORT:~$ chmod g-w test1.txt
 ```
