@@ -238,3 +238,10 @@ file1.txt file2.txt differ: byte 30, line 2
 
 - if file is identical no output is return 
 ```
+
+# How to read the manual of the command
+
+```bash
+dev-member@QC-SUPPORT:~$ man mkdir
+dev-member@QC-SUPPORT:~$ man rmdir
+```
