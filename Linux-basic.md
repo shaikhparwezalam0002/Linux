@@ -282,6 +282,9 @@ For these permission we have 2 commands
 
 ```bash
  How to change a user permission
+
+ 1. Symbolic Way
+
  Syntax : chmod [User][Operator][Permission] [FileName]
  User type:
   u - user
@@ -304,4 +307,9 @@ For these permission we have 2 commands
     dev-member@QC-SUPPORT:~$ chmod g-x g+w test1.txt
     dev-member@QC-SUPPORT:~$ chmod g+x test1.txt
     dev-member@QC-SUPPORT:~$ chmod g-w test1.txt
+ 2. Numeric Way
+    we have range [0-7] and 
+    for read - 100 - 4
+    for write,execute - 011 -5 
+    for read , write, execute - 111 - 7 
 ```
