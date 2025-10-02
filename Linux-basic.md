@@ -328,5 +328,8 @@ For these permission we have 2 commands
 # CHOWN THIS COMMAND HELP TO MANANGE THE OWNERSHIP OF A DIRECTORY/FILE.
 
 ```bash
-
+Syntax : chmod [user/owner] [:group] [FileName]
+-rwxr-xr-x 1 dev-member dev-member    0 Oct  2 20:19 linux.sh
+dev-member@QC-SUPPORT:~$ sudo chown :developer linux.sh 
+-rwxr-xr-x 1 dev-member developer     0 Oct  2 20:19 linux.sh
 ```
