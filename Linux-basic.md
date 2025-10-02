@@ -366,3 +366,4 @@ dev-member@QC-SUPPORT:~$ du -h DevOpsLrn
 8.0K    DevOpsLrn
 ```
 ![disk uses by a ](/image/image1.png)
+![disk uses by a ](/image/image2.png)
