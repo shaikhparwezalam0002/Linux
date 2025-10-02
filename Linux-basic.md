@@ -275,5 +275,11 @@ Note : File any user of the machine we can separetly define what permission they
 For these permission we have 2 commands
 
 1. chmod # this command helps us to change the permission of a file and directory.
-2. chown
+2. chown # this command will help us to change the ownership of the file and directory.
+```
+
+# How to play with permission of a file and directory.
+
+```bash
+
 ```
