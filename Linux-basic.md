@@ -333,3 +333,16 @@ Syntax : chmod [user/owner] [:group] [FileName]
 dev-member@QC-SUPPORT:~$ sudo chown :developer linux.sh 
 -rwxr-xr-x 1 dev-member developer     0 Oct  2 20:19 linux.sh
 ```
+
+# DF COMMAND 
+
+```bash
+ #used to display the disk value 
+ #and for the manual you can use `man df`
+ #to read the data in human understandable add flag `-h` and hidden `-a`
+
+ dev-member@QC-SUPPORT:~$ df
+ dev-member@QC-SUPPORT:~$ df -h -a
+ # -h for humand readable format
+ # -a for hidden files as well
+```
