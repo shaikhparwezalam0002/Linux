@@ -16,3 +16,29 @@
 # 3. What is a Kernel in Linux ?
 
 *Main source of the OS. It is free and open source.*
+
+# 4. How do you create a user account?
+
+```bash
+dev-member@SUPT:~/DevOpsLrn$ sudo adduser "jhon-doe"
+[sudo] password for dev-member:
+info: Adding user `jhon-doe' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `jhon-doe' (1003) ...
+info: Adding new user `jhon-doe' (1003) with group `jhon-doe (1003)' ...
+info: Creating home directory `/home/jhon-doe' ...
+info: Copying files from `/etc/skel' ...
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for jhon-doe
+Enter the new value, or press ENTER for the default
+        Full Name []: Jhon Doe
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n] Y
+info: Adding new user `jhon-doe' to supplemental / extra groups `users' ...
+info: Adding user `jhon-doe' to group `users' ...
+```
