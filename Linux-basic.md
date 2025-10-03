@@ -390,3 +390,4 @@ The output of du -h --max-depth=1 would be similar to this:
 1.7G	.
 
 ```
+![CPU USES DETAILS](./image/image4.png)
