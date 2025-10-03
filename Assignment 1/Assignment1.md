@@ -42,7 +42,7 @@ Is the information correct? [Y/n] Y
 info: Adding new user `jhon-doe' to supplemental / extra groups `users' ...
 info: Adding user `jhon-doe' to group `users' ...
 ```
-# 4. What is the ‘grep’ command used for in Linux ?
+# 5. What is the ‘grep’ command used for in Linux ?
 
 ```bash
 # used for searching in a file.
