@@ -55,9 +55,7 @@ dev-member@SUPPORT:~$ grep "weak" -i test1.txt
         Be available for weakends.
 ```
 
-# 5. and create files inside it.
-
-# Step2: “abhi” should be the owner of the directory. He should be able to create files and delete files inside the directory and also he should be able to add content to all files inside the directory.
+# 5. Step1: Create directory /tmp/bg as root user and create files inside it. Step2: “abhi” should be the owner of the directory. He should be able to create files and delete files inside the directory and also he should be able to add content to all files inside the directory.
 
 ```bash
 dev-member@SUPPORT:/tmp/bg$ touch demo.txt
