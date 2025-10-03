@@ -54,3 +54,27 @@ Hello Team,
 dev-member@SUPPORT:~$ grep "weak" -i test1.txt
         Be available for weakends.
 ```
+
+# 5. and create files inside it.
+
+# Step2: “abhi” should be the owner of the directory. He should be able to create files and delete files inside the directory and also he should be able to add content to all files inside the directory.
+
+```bash
+dev-member@SUPPORT:/tmp/bg$ touch demo.txt
+dev-member@SUPPORT:/tmp/bg$ ls -lh
+total 0
+-rw-r--r-- 1 dev-member dev-member 0 Oct  3 20:31 demo.txt
+dev-member@SUPPORT:/tmp/bg$ sudo chown abhi demo.txt
+dev-member@SUPPORT:/tmp/bg$ ls -lh
+total 0
+-rw-r--r-- 1 abhi dev-member 0 Oct  3 20:31 demo.txt
+dev-member@SUPPORT:/tmp/bg$ su abhi
+Password:
+abhi@SUPPORT:/tmp/bg$ chmod u+x demo.txt
+abhi@SUPPORT:/tmp/bg$ ls -lh
+total 0
+-rwxr--r-- 1 abhi dev-member 0 Oct  3 20:31 demo.txt
+abhi@SUPPORT:/tmp/bg$ vi demo.txt
+abhi@SUPPORT:/tmp/bg$ cat demo.txt
+Hello
+```
