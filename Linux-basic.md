@@ -336,7 +336,7 @@ dev-member@QC-SUPPORT:~$ sudo chown :developer linux.sh
 
 # System Monitoring Commands
 
-# DF COMMAND 
+# DF COMMAND USED TO DEFINE DISK USES
 
 ```bash
  #used to display the disk value 
@@ -367,3 +367,26 @@ dev-member@QC-SUPPORT:~$ du -h DevOpsLrn
 ```
 ![disk uses by a ](/image/image1.png)
 ![disk uses by a ](/image/image2.png)
+
+```bash
+
+dev-member@QC-SUPPORT:~$ du --max-depth=1
+
+projects/
+├── work_files/
+│   ├── document.txt
+│   └── image.jpg
+├── media/
+│   └── video.mp4
+├── report.pdf
+└── notes.txt
+
+The output of du -h --max-depth=1 would be similar to this:
+
+4.0K	./notes.txt
+4.0K	./report.pdf
+512M	./media
+1.2G	./work_files
+1.7G	.
+
+```
