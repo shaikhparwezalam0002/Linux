@@ -42,3 +42,13 @@ Is the information correct? [Y/n] Y
 info: Adding new user `jhon-doe' to supplemental / extra groups `users' ...
 info: Adding user `jhon-doe' to group `users' ...
 ```
+
+```bash
+dev-member@SUPPORT:~$ cat test1.txt
+Hello Team,
+
+        Be available for weakends.
+        
+dev-member@SUPPORT:~$ grep "weak" -i test1.txt
+        Be available for weakends.
+```
