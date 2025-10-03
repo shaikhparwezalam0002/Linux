@@ -76,3 +76,10 @@ abhi@SUPPORT:/tmp/bg$ vi demo.txt
 abhi@SUPPORT:/tmp/bg$ cat demo.txt
 Hello
 ```
+
+# 8. You suspect that a particular process is consuming excessive CPU resources on your Linux server. How would you identify and terminate this process?
+
+```bash
+dev-member@SUPPORT:~$ top
+dev-member@SUPPORT:~$ sudo kill 9 903
+```
