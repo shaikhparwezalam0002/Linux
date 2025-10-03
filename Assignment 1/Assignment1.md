@@ -2,7 +2,7 @@
 
 *Email : shaikhparwez0002@gmail.com*
 
-*Github : [https://supreme-space-winner-4pp67qpr7rc96v.github.dev/](https://github.com/shaikhparwezalam0002/Linux/edit/main/Assignment%201/Assignment1.md)*
+*Github : https://github.com/shaikhparwezalam0002/Linux/blob/main/Assignment%201/Assignment1.md*
 
 *Assignment Name : Linux - Assignment*
 
