@@ -391,3 +391,5 @@ The output of du -h --max-depth=1 would be similar to this:
 
 ```
 ![CPU USES DETAILS](./image/image4.png)
+
+![CPU USED DETAILS](./image/image5.png)
