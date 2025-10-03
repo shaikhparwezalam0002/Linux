@@ -55,6 +55,58 @@ dev-member@SUPPORT:~$ grep "weak" -i test1.txt
         Be available for weakends.
 ```
 
+# 6. Step1: Create user p1
+# Step2: He should be part of 3 groups g1,g2,g3.
+# Step3: whenever he creates a file automatically in the group section of file grp g1 should come.
+
+```bash
+# Group 1 is created.
+dev-member@SUPPORT:~$ sudo addgroup g1  
+info: Selecting GID from range 1000 to 59999 ...
+info: Adding group `g1' (GID 1005) ...
+# Group 2 is created.
+dev-member@SUPPORT:~$ sudo addgroup g2
+info: Selecting GID from range 1000 to 59999 ...
+info: Adding group `g2' (GID 1006) ...
+# Group 3 is created.
+dev-member@SUPPORT:~$ sudo addgroup g3
+info: Selecting GID from range 1000 to 59999 ...
+info: Adding group `g3' (GID 1007) ...
+# list all the groups
+dev-member@SUPPORT:~$ cat /etc/group
+g1:x:1005:
+g2:x:1006:
+g3:x:1007:
+#created user p1
+dev-member@SUPPORT:~$ sudo adduser p1
+info: Adding user `p1' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `p1' (1008) ...
+info: Adding new user `p1' (1008) with group `p1 (1008)' ...
+info: Creating home directory `/home/p1' ...
+info: Copying files from `/etc/skel' ...
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for p1
+Enter the new value, or press ENTER for the default
+        Full Name []: AssignmentNo6
+        Room Number []:
+        Work Phone []:
+        Home Phone []:
+        Other []:
+Is the information correct? [Y/n] Y
+info: Adding new user `p1' to supplemental / extra groups `users' ...
+info: Adding user `p1' to group `users' ...
+# assign groups to p1 user
+dev-member@SUPPORT:~$ sudo usermod -aG g1 p1
+dev-member@SUPPORT:~$ sudo usermod -aG g2 p1
+dev-member@SUPPORT:~$ sudo usermod -aG g3 p1
+#print what are the groups associated with p1 user
+dev-member@SUPPORT:~$ groups p1
+p1 : p1 users g1 g2 g3
+```
+
 # 7. Step1: Create directory /tmp/bg as root user and create files inside it. Step2: “abhi” should be the owner of the directory. He should be able to create files and delete files inside the directory and also he should be able to add content to all files inside the directory.
 
 ```bash
