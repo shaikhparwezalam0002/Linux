@@ -1,6 +1,10 @@
 *Name : Shaikh Parwez Alam*
+
 *Email : shaikhparwez0002@gmail.com*
+
 *Github : https://supreme-space-winner-4pp67qpr7rc96v.github.dev/*
+
+*Assignment Name : Linux - Assignment*
 
 # 1. What is Linux ?
 *Linux is a kernel is not an OS.*
